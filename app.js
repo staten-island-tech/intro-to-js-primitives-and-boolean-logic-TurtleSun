@@ -67,7 +67,7 @@ if (light === "green") {
 } */
 
 
-/* let kristyInt = false;
+ let kristyInt = false;
 let baoInt = false;
 
 if (kristyInt === true && baoInt === true) {
@@ -77,5 +77,5 @@ if (kristyInt === true && baoInt === true) {
 }   else {
     console.log("milk 2");
 }
- */
+
 
