@@ -67,7 +67,7 @@ if (light === "green") {
 } */
 
 
- let kristyInt = false;
+/*  let kristyInt = false;
 let baoInt = false;
 
 if (kristyInt === true && baoInt === true) {
@@ -79,3 +79,81 @@ if (kristyInt === true && baoInt === true) {
 }
 
 
+ */
+
+/* function test () {
+    console.log(" I'm a function");
+}
+test(); */
+
+/* const add = function(x,y){
+    return x + y; // return ends the function
+};
+
+console.log(add(10, 20));
+const name = "Richard"; const is constant, let is varying */
+
+/* const hello = function() {
+    console.log("Hello");
+};
+const bye = function() {
+    console.log("Bye");
+};
+const hiBye = function() {
+    hello();
+    bye();
+    hello();
+};
+hiBye(); */
+
+/* const name = "Thurushi";//dis is global variable or global space
+
+function displayName() {// <- SACRED
+    const name = "Kelly"; //local or function scope
+
+    function sun() {
+        console.log(name); //inner function has access to outer function
+    }
+    
+    return sun;
+}
+
+cont myFunc = displayName();
+myFunc();
+//closure? */
+
+//ARRAYS
+//const names = [1,"name",true]
+
+/* const names = ["Aarthi", "Vicky", "Bao", "Doyle"];
+names.forEach(anme => console.log(anme)); */
+
+//https://developer.mozilla.org and go to arrays
+// "=>" functions need no return
+
+/* const numbers = [1,2,3];
+const add = function(x, y , z) {
+    return x + y + z;
+};
+console.log(add(...nubmers)); */
+
+// let students = ["Riya", "Omar", "Alan", "Jiayu", "Michael", "Bao", "I.N.", "BI"]
+/* const newArr = students.filter(word => word.length < 5); // for only 4 letter put "==="
+console.log(newArr); */
+    //.push(); //adding another varriable
+    //.forEach();
+    //.map();
+
+// check "includes" junshen
+/*if (students.includes("Junshen")){
+    console.log(true);
+}   else {
+    console.log(false);
+}
+
+//check if Alan or Savva included in "some"
+    if (students.includes("Alan", "Savva")){
+        console.log(true);
+    }   else {
+        console.log(false);
+    }  */
